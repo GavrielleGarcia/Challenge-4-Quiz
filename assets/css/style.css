@@ -1,0 +1,157 @@
+body{
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #e9e4c2;
+}
+
+
+
+#container{
+  margin : 20px auto;
+  background-color: white;
+  height: 500px;
+  width : 700px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  color: #000;
+
+  
+}
+#start{
+  background-color: #887c7c7d;
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  width:350px;
+  height:100px;
+  text-align: center;
+  cursor: pointer;
+  position:fixed;
+  margin-top:180px;
+  margin-left:180px;
+  margin-right:180px;
+  margin-bottom:180px;
+  color : rgb(202, 0, 0);
+  border: 3px solid rgb(202, 0, 0);
+}
+#start:hover{
+  border: 3px solid lightseagreen;
+  color : lightseagreen;
+}
+
+#question{
+  width:700px;
+  height : 125px;
+  position: absolute;
+  right:0;
+  top:0;
+  color: rgb(194, 3, 3);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#question p{
+  margin : 0;
+  padding : 15px;
+  font-size: 1.25em;
+}
+
+#choices{
+  width : 580px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  right : 0;
+  top : 125px;
+  padding : 10px
+}
+.choice{
+  display: inline-block;
+  width : 235px;
+  text-align: center;
+  border : 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding : 5px;
+}
+.choice:hover{
+  border : 2px solid grey;
+  font-weight: bold;
+  background-color: #e6edbf;
+}
+
+#timer{
+  position: absolute;
+  height : 100px;
+  width : 200px;
+  bottom : 0px;
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#counter{
+  font-size: 3em;
+}
+#btimeGauge{
+  width : 150px;
+  height : 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+  margin-left : 25px;
+}
+#timeGauge{
+  height : 10px;
+  border-radius: 10px;
+  background-color: mediumseagreen;
+  margin-top : -10px;
+  margin-left : 25px;
+}
+#progress{
+  width : 500px;
+  position: absolute;
+  bottom : 0px;
+  right : 0px;
+  padding:5px;
+  text-align: right;
+}
+.prog{
+  width : 25px;
+  height : 25px;
+  border: 1px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left : 5px;
+  margin-right : 5px;
+}
+#scoreContainer{
+  margin : 20px auto;
+  background-color: rgb(205, 236, 237);
+  height: 300px;
+  width : 700px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 0px;
+  position: relative;
+  display: none;
+  color: black;
+}
+#scoreContainer img{
+  position: absolute;
+  top:200px;
+  left:325px;
+}
+#scoreContainer p{
+  position: absolute;
+  display: block;
+  width : 59px;
+  height :59px;
+  top:130px;
+  left:325px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn{
+  background-color: rgb(195, 255, 255);
+  color: #76693f;
+}
+
